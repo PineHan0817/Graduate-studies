@@ -194,7 +194,7 @@ def calculate_consumption_coefficient(file_path):
 
     # 关闭工作簿
     workbook.close()
-#1
+
 
 # Excel路径
 file_path = r'D:\桌面\中国2015-2020增量表（8部门）新.xlsx'
