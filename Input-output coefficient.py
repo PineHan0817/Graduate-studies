@@ -194,8 +194,9 @@ def calculate_consumption_coefficient(file_path):
 
     # 关闭工作簿
     workbook.close()
-#66
 
+#————————————————————————————————————————————————————————————————————————————————————————————
+# 需要编辑的部分
 # Excel路径
 file_path = r'D:\桌面\中国2015-2020增量表（8部门）新.xlsx'
 # Excel中工作表名称
@@ -215,7 +216,7 @@ total_input = 18
 # 总产出所在行和列
 total_output_row = 5
 total_output_col = 18
-
+#——————————————————————————————————————————————————————————————————————————————————————————————————
 # 直接消耗系数
 calculate_direct_consumption_coefficients(file_path, sheet_name, intermediate_input_start_row, intermediate_input_end_row, intermediate_input_start_col, intermediate_input_end_col, total_input)
 
